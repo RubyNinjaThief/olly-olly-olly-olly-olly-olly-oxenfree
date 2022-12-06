@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>table,
-td {
+  <style>
+    table,
+    td {
     border: 1px solid #333;
+      display:block;
+      margin:auto;
 }
 
 thead,
@@ -11,6 +14,12 @@ tfoot {
     background-color: #333;
     color: #fff;
 }
+    h1, 
+    p,
+    img{
+      display:block;
+      margin:auto;
+    }
   </style>
   </head>
 <body>
@@ -30,68 +39,57 @@ tfoot {
   <h2>Classmates' Hobbies</h2>
   
   <p></p>
-  <h1><a href="https://docs.google.com/forms/d/e/1FAIpQLSeGNcuE6wizg3LEoCa3xxkqAo4vTZ0PknQLcp-965Iv6ouBag/viewform"同学 <strong>SURVEY!</strong></a></h1>
-  <p>In this assignment, I made a survey in Chinese asking the frequency with which people do some recreational activities. <br>
-    It's linked in the header for this body of text, actually. <br>
-    But, in the case of link rot, I've also got it in this website..  in <strong>NON-INTERACTIVE FORM!</strong><br>
-    I asked...<br>
-    Oh, I was having difficulties with making the graph, so I gave up and just dumped the data in an image. 对不起！</p>
-<img src="Captura desde 2022-10-26 21-20-01.png" alt="Survey data from five of mis amigos!">
+  <h1><a href="https://docs.google.com/forms/d/e/1FAIpQLSeGNcuE6wizg3LEoCa3xxkqAo4vTZ0PknQLcp-965Iv6ouBag/viewform"同学 <strong>同学SURVEY!</strong></a></h1>
+  <p>In this assignment, I made a survey in Chinese asking how often people walk, read, dance, listen to music, and play on their phones.
+    <br>Thanks to everyone who filled it out! You make this possible!</p>
 
+<!--Below is the table containing survey pie graphs.-->
 <table>
     <thead>
         <tr>
-            <th colspan="2">同学SURVEY!</th>
+            <th colspan="1">Results</th>
         </tr>
     </thead>
-    <tbody>
-        <tr>
-            <td>你常常跳舞马</td>
-            <td><ul>
-              <li>常常</li>
-              <li>有的时候</li>
-              <li>不常</li>
-              <li>不</li>
-              </ul></td>
-        </tr>
-      <tr>
-            <td>你常常看书马</td>
-            <td><ul>
-              <li>常常</li>
-              <li>有的时候</li>
-              <li>不常</li>
-              <li>不</li>
-              </ul></td>
-        </tr>
-      <tr>
-            <td>你常常听音乐马</td>
-            <td><ul>
-              <li>常常</li>
-              <li>有的时候</li>
-              <li>不常</li>
-              <li>不</li>
-              </ul></td>
-        </tr>
-      <tr>
-            <td>你常常玩手机马</td>
-            <td><ul>
-              <li>常常</li>
-              <li>有的时候</li>
-              <li>不常</li>
-              <li>不</li>
-              </ul></td>
-        </tr>
-      <tr>
-            <td>你常常逛街马</td>
-            <td><ul>
-              <li>常常</li>
-              <li>有的时候</li>
-              <li>不常</li>
-              <li>不</li>
-              </ul></td>
-        </tr>
-    </tbody>
+  <tbody>
+    <tr>
+      <td>
+        <p>你常常跳舞马？Do you dance often?</p>
+        <img src="tiaowu.png" alt="Survey results to a question, how often do you dance? There are Five total responses: 
+                                   Two don't often, Three don't at all.">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>你常常看书马？Do you read books often?</p>
+        <img src="kanshu.png" alt="A survey result graph. Five total responses: Four read often, one doesn't read often.">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>你常常听音乐马？Do you listen to music often?</p>
+        <img src="听音乐.png" alt="A survey result graph. Five total responses, all of them often listen to music.">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>你常常玩手机马？Do you play mobile games often?</p>
+        <img src="玩手机.png" alt="A survey result graph. Five total responses: Two often play, one plays sometimes, and two do not often play.">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>你常常逛街马？Do you go on walks often?</p>
+        <img src="逛街.png" alt="A survey result graph. Five total responses: One sometimes walks, three do not often walk, and one never walks.">
+      </td>
+    </tr>
+  </tbody>
 </table>
+<p>Just a quick aside real quick:
+  <br>there's this really neat browser extension that I recommend to my classmates who are learning Chinese.
+  <br>On Firefox and Google Chrome, it's called Zhongwen.
+  <br>It's a really neat popup dictionary. 
+  <br>You just hover your mouse over a character you don't recognize and it'll display all of its pronunciations and definitions!
+  <br>I think it's very, very nice.</p>
 
 </body>
 </html>
