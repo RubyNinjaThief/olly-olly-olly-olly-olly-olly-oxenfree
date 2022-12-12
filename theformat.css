@@ -1,6 +1,21 @@
 body {
-  baclground-image: url('');
+  background-image: url('Star-Guardian-wallpaper-21.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
+}
+
+h1, h2, p {
+  background-color:#c979d9;
+  font-family:sans-serif;
+}
+
+ul, ol, li {
+  background-color:#c979d9;
+  font-family:sans-serif;
+  display:inline-block;
+}
+
+img {
+  border-radius: 15%
 }
